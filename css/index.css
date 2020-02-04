@@ -177,6 +177,12 @@ footer .homepageFootericons a {
   background-attachment: fixed;
   background-size: 100% 68%;
   background-repeat: no-repeat;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .homepageCta {
+    background-size: 100% 47%;
+  }
 }
 .homepageCta div {
   border-top: solid #fff 1px;
@@ -240,8 +246,6 @@ button:hover {
   }
 }
 .homepageProducts div img {
-  width: 46vh;
-  height: 35vh;
   width: 100%;
   height: auto;
 }
