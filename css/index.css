@@ -149,6 +149,26 @@ h3 {
 h4 {
   font-size: 2rem;
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+}
+footer .homepageFootertext {
+  font-size: 1.5rem;
+  text-align: center;
+  border-top: solid white 2px;
+  padding-top: 1%;
+}
+footer .homepageFootericons {
+  display: flex;
+  padding-top: 1%;
+  text-align: center;
+  width: 10%;
+  justify-content: space-between;
+}
 .homepageCta button {
   background-color: #121012;
   color: #fff;
