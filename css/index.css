@@ -169,6 +169,10 @@ footer .homepageFootericons {
   width: 10%;
   justify-content: space-between;
 }
+footer .homepageFootericons a {
+  text-decoration: none;
+  color: #fff;
+}
 .homepageCta button {
   background-color: #121012;
   color: #fff;
@@ -234,6 +238,11 @@ nav a {
 .aboutTeams div {
   padding: 5% 15%;
 }
+.aboutTeamList {
+  margin: 3%;
+  padding: 3%;
+  background-color: #25252b;
+}
 .aboutTeamList .teamRow {
   display: flex;
 }
@@ -245,8 +254,8 @@ nav a {
   align-items: space-evenly;
 }
 .aboutTeamList .teamRow .aboutTeamsMember img {
-  height: 30vh;
-  width: 30vh;
+  height: 25vh;
+  width: 25vh;
 }
 .aboutTeamList .teamRow .aboutTeamsMember .memberInfo {
   display: flex;
@@ -261,4 +270,8 @@ nav a {
   display: flex;
   justify-content: space-evenly;
   padding: 4%;
+}
+.aboutTeamList .teamRow .aboutTeamsMember .memberImgIcons div a {
+  text-decoration: none;
+  color: #fff;
 }
