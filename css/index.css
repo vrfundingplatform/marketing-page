@@ -325,6 +325,16 @@ nav a {
     align-items: center;
     margin: 3% 0;
   }
+  nav .homepageDivlinks a {
+    margin: 3%;
+    border-bottom: solid 1px #fff;
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  nav .navSignIn {
+    width: 100%;
+    margin-bottom: 5%;
+  }
 }
 .aboutTop {
   background-repeat: no-repeat;
@@ -354,36 +364,42 @@ nav a {
   display: flex;
 }
 .aboutTeamList .teamRow .aboutTeamsMember {
-  padding: 5% 2%;
+  padding: 2% 2%;
   display: flex;
   flex-direction: row-reverse;
   height: 25vh;
   align-items: space-evenly;
-}
-.aboutTeamList .teamRow .aboutTeamsMember img {
-  height: 25vh;
-  width: 25vh;
+  width: 50%;
+  justify-content: space-between;
 }
 .aboutTeamList .teamRow .aboutTeamsMember .memberInfo {
   display: flex;
   flex-direction: column;
+  background-color: #121012;
   justify-content: center;
+  align-items: center;
   padding: 0 3%;
+  width: 80%;
+  text-align: center;
 }
+.aboutTeamList .teamRow .aboutTeamsMember .memberInfo h3,
 .aboutTeamList .teamRow .aboutTeamsMember .memberInfo h4 {
   padding: 3% 0;
 }
-.aboutTeamList .teamRow .aboutTeamsMember .memberInfo p {
-  font-size: 1.3rem;
-}
-.aboutTeamList .teamRow .aboutTeamsMember .memberImgIcons div {
+.aboutTeamList .teamRow .aboutTeamsMember .memberInfo .memberIcons {
   display: flex;
+  width: 60%;
   justify-content: space-evenly;
-  padding: 4%;
+  padding: 3% 0;
 }
-.aboutTeamList .teamRow .aboutTeamsMember .memberImgIcons div a {
+.aboutTeamList .teamRow .aboutTeamsMember .memberInfo .memberIcons a {
   text-decoration: none;
   color: #fff;
+}
+.aboutTeamList .teamRow .aboutTeamsMember .memberImg img {
+  height: 25vh;
+  width: 30vh;
+  max-width: 100%;
 }
 .projectsPagetopcontent {
   background-size: 100% 68%;

@@ -27,48 +27,59 @@
     margin: 3%;
     padding: 3%;
     background-color: rgb(37, 37, 43);
+
     .teamRow{
         .flexRow();
 
         .aboutTeamsMember{
-            padding: 5% 2%;
+            padding: 2% 2%;
             .flexRow();
             flex-direction: row-reverse;
             height: 25vh;
             align-items: space-evenly;
+            width: 50%;
+            justify-content: space-between;
 
-            img{
-                height: 25vh;
-                width: 25vh;
-            }
+
 
             .memberInfo{
                 .flexColumn();
+                background-color: @black;
                 justify-content: center;
+                align-items: center;
                 padding: 0 3%;
+                width: 80%;
+                text-align: center;
 
-                h4{
+                h3, h4{
                     padding: 3% 0;
                 }
 
-                p{
-                    font-size: 1.3rem;
+                .memberIcons{
+                    .flexRow();
+                    width: 60%;
+                    justify-content: space-evenly;
+                    padding: 3% 0;
+                    a{
+                        .undecorateLink();
+                    }
+
                 }
+
             }
 
-            .memberImgIcons{
-                    div{
-                    .flexRow();
-                    justify-content: space-evenly;
-                    padding: 4%;
+            .memberImg{
+            
+                img{
+                    height: 25vh;
+                    width: 30vh;
+                    max-width: 100%;
+                }
 
-                        a{
-                            .undecorateLink();
-                        }
-                        
-                    }
             }
 
         }
+
     }
+
 }
