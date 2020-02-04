@@ -218,23 +218,37 @@ button:hover {
   margin: 0 2%;
   justify-content: space-around;
 }
+@media (max-width: 500px) {
+  .homepageProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .homepageProducts div {
+  margin: 0 5rem;
   width: 29%;
 }
 .homepageProducts div h2 {
   text-align: center;
   margin: 5% 0;
 }
+@media (max-width: 500px) {
+  .homepageProducts div {
+    width: 35rem;
+    margin: 0 5%;
+  }
+}
 .homepageProducts div img {
   width: 46vh;
   height: 35vh;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  width: 100%;
+  height: auto;
 }
 .homepageProducts div p {
   margin: 5% 0;
   text-align: center;
+  font-size: 2rem;
 }
 nav {
   display: flex;
@@ -257,6 +271,11 @@ nav .navSignIn button {
   color: #fff;
   border: solid 1px #fff;
   width: 30%;
+}
+@media (max-width: 500px) {
+  nav .navSignIn button {
+    width: 80%;
+  }
 }
 nav .navSignIn button:active {
   background-color: #fff;
