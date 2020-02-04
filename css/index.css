@@ -258,6 +258,20 @@ button:hover {
   font-size: 2rem;
   height: 50%;
 }
+.homepageMoreprojects {
+  margin: 5% 0;
+  text-align: center;
+  /* visited link */
+}
+.homepageMoreprojects h3 {
+  line-height: 2;
+}
+.homepageMoreprojects a:link {
+  color: #fff;
+}
+.homepageMoreprojects a:visited {
+  color: #fff;
+}
 .homepageBottomContent {
   text-align: center;
   margin: 5% 0 ;
