@@ -130,6 +130,8 @@ html,
 body {
   font-size: 62.5%;
   max-width: 100%;
+  background-color: #121012;
+  color: #fff;
 }
 body {
   font-size: 1.6rem;
@@ -146,31 +148,6 @@ h3 {
 }
 h4 {
   font-size: 2rem;
-}
-html {
-  background-color: #121012;
-  color: #fff;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem 0;
-}
-nav .homepageDivlinks {
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-}
-nav .homepageNavicons {
-  display: flex;
-  justify-content: space-evenly;
-  width: 19%;
-  text-align: center;
-}
-nav a {
-  color: #fff;
-  text-decoration: none;
 }
 .homepagecoolprojects {
   text-align: center;
@@ -222,42 +199,48 @@ nav a {
   text-decoration: none;
 }
 .aboutTop {
-  text-align: center;
-  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: black;
 }
 .aboutTop div {
   padding: 7% 5% 7% 5%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 35%;
+  height: 25vh;
 }
 .aboutTeams {
   text-align: center;
 }
 .aboutTeams div {
-  padding: 5% 30%;
+  padding: 5% 15%;
 }
-.aboutTeamList .aboutTeamsMember {
+.aboutTeamList .teamRow {
+  display: flex;
+}
+.aboutTeamList .teamRow .aboutTeamsMember {
   padding: 5% 2%;
   display: flex;
+  flex-direction: row-reverse;
   height: 25vh;
-  align-items: center;
+  align-items: space-evenly;
 }
-.aboutTeamList .aboutTeamsMember img {
+.aboutTeamList .teamRow .aboutTeamsMember img {
   height: 30vh;
   width: 30vh;
 }
-.aboutTeamList .aboutTeamsMember .memberInfo {
+.aboutTeamList .teamRow .aboutTeamsMember .memberInfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 0 3%;
 }
-.aboutTeamList .aboutTeamsMember .memberInfo h4 {
+.aboutTeamList .teamRow .aboutTeamsMember .memberInfo h4 {
   padding: 3% 0;
 }
-.aboutTeamList .aboutTeamsMember .memberImgIcons div {
+.aboutTeamList .teamRow .aboutTeamsMember .memberImgIcons div {
   display: flex;
   justify-content: space-evenly;
   padding: 4%;

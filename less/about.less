@@ -1,13 +1,14 @@
 .aboutTop{
-    text-align: center;
-    .flexRow();
-
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
     div{
         padding: 7% 5% 7% 5%;
         .flexRow();
         align-items: center;
         justify-content: center;
-        width: 50%;
+        width: 35%;
+        height: 25vh;
 
     }
 
@@ -17,41 +18,45 @@
     text-align: center;
 
     div{
-        padding: 5% 30%;
+        padding: 5% 15%;
     }
 
 }
 
 .aboutTeamList{
 
-    .aboutTeamsMember{
-        padding: 5% 2%;
+    .teamRow{
         .flexRow();
-        height: 25vh;
-        align-items: center;
 
-        img{
-        height: 30vh;
-        width: 30vh;
-        }
+        .aboutTeamsMember{
+            padding: 5% 2%;
+            .flexRow();
+            flex-direction: row-reverse;
+            height: 25vh;
+            align-items: space-evenly;
 
-        .memberInfo{
-            .flexColumn();
-            justify-content: center;
-            padding: 0 3%;
-            h4{
-                padding: 3% 0;
+            img{
+            height: 30vh;
+            width: 30vh;
             }
-        }
 
-        .memberImgIcons{
-                div{
-                .flexRow();
-                justify-content: space-evenly;
-                padding: 4%;
+            .memberInfo{
+                .flexColumn();
+                justify-content: center;
+                padding: 0 3%;
+                h4{
+                    padding: 3% 0;
                 }
+            }
+
+            .memberImgIcons{
+                    div{
+                    .flexRow();
+                    justify-content: space-evenly;
+                    padding: 4%;
+                    }
+            }
+
         }
-
     }
-
 }
