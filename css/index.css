@@ -179,7 +179,7 @@ footer .homepageFootericons a {
   background-repeat: no-repeat;
 }
 .homepageCta div {
-  border-top: solid #fff;
+  border-top: solid #fff 1px;
   padding: 7% 5% 7% 5%;
   display: flex;
   flex-direction: column;
@@ -190,10 +190,10 @@ footer .homepageFootericons a {
   border-top: solid #fff 3.5px;
   padding-top: 2rem;
 }
-.homepageCta div p {
+div p {
   padding: 3rem 0;
 }
-.homepageCta button {
+button {
   background-color: #121012;
   color: #fff;
   border-color: #fff;
@@ -203,6 +203,11 @@ footer .homepageFootericons a {
   width: 20rem;
   text-align: center;
   border-radius: 5px;
+}
+button:hover {
+  background-color: #fff;
+  color: #121012;
+  border-color: #121012;
 }
 .homepagecoolprojects {
   text-align: center;
