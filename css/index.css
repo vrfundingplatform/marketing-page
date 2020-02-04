@@ -282,8 +282,8 @@ nav {
   margin: 1rem 0;
 }
 nav .homepageDivlinks {
-  width: 80%;
   display: flex;
+  width: 80%;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
@@ -312,6 +312,19 @@ nav .navSignIn button:hover {
 nav a {
   color: #fff;
   text-decoration: none;
+}
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav .homepageDivlinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 0;
+  }
 }
 .aboutTop {
   background-repeat: no-repeat;
@@ -379,12 +392,29 @@ nav a {
   background-size: 100%;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .contactTop {
+    height: 15vh;
+  }
+}
 .contactTop h1 {
   color: #121012;
   margin-left: 70%;
 }
+@media (max-width: 500px) {
+  .contactTop h1 {
+    margin-left: 60%;
+    font-size: 2.3rem;
+  }
+}
 .contactMid {
   padding: 5% 20%;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .contactMid {
+    padding: 5% 10%;
+  }
 }
 .contactForm {
   margin: 0 5%;

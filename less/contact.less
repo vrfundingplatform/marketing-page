@@ -5,9 +5,19 @@ background-repeat: no-repeat;
 background-size: 100%;
 align-items: center;
 
+@media @mobile{
+    height: 15vh;
+}
+
     h1{
         color: @black;
         margin-left: 70%;
+
+        @media @mobile{
+            margin-left: 60%;
+            font-size: 2.3rem;
+
+        }
     }
 
 
@@ -15,6 +25,11 @@ align-items: center;
 
 .contactMid{
     padding: 5% 20%;
+    text-align: center;
+    
+    @media @mobile{
+        padding: 5% 10%;
+    }
 }
 
 .contactForm{
@@ -40,4 +55,6 @@ align-items: center;
         }
 
     }
+
 }
+
