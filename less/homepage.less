@@ -3,27 +3,51 @@
 
 
 .homepageCta{
-    button{
-        .defaultColor;
-    }
-    
-  background-attachment: fixed;
-  background-size: 100% 100%;
-
-        div{
-            
+    background-attachment: fixed;
+    background-size: 100% 68%;
+    background-repeat: no-repeat;
+   
+     div{
+            border-top: solid @white;
             padding: 7% 5% 7% 5%;
             .flexRow();
-            align-items: center;
-            justify-content: center;
-            width: 35%;
-            height: 25vh;
-
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+    img{
+        border-top:solid @white 3.5px;
+       padding-top: 2rem;
+    }
+          
 
     
     
         }
     
+    div{
+    
+      
+p{
+    padding: 3rem 0;
+    
+}
+    }
+    button{
+        background-color: @black;
+        color:@white;
+        border-color: @white;
+        font-size: 1.7rem;
+        font-weight: bold;
+       padding: .8rem 0;
+        width: 20rem;
+        text-align: center;
+        border-radius: 5px;
+        
+    }
+    
+ 
+
+       
     }
     
 
@@ -35,14 +59,18 @@
 
 .homepagecoolprojects{
     text-align: center;
+margin: 2rem 0;
 }
 
 .homepageProducts{
+    
     .flexRow;
-    justify-content: space-evenly;
+    margin: 0 2%;
+    justify-content: space-around;
    
    
     div{
+        
     width: 29%;
          h2{
             text-align: center;
@@ -52,12 +80,15 @@
 
 
        img{
-        .homeImages()
-        
+        .homeImages();
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
         
        }
        p{
            margin: 5% 0;
+           text-align: center;
           
        }
 

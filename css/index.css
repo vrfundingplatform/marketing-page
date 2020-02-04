@@ -175,26 +175,43 @@ footer .homepageFootericons a {
 }
 .homepageCta {
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: 100% 68%;
+  background-repeat: no-repeat;
+}
+.homepageCta div {
+  border-top: solid #fff;
+  padding: 7% 5% 7% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.homepageCta div img {
+  border-top: solid #fff 3.5px;
+  padding-top: 2rem;
+}
+.homepageCta div p {
+  padding: 3rem 0;
 }
 .homepageCta button {
   background-color: #121012;
   color: #fff;
-}
-.homepageCta div {
-  padding: 7% 5% 7% 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 35%;
-  height: 25vh;
+  border-color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 0.8rem 0;
+  width: 20rem;
+  text-align: center;
+  border-radius: 5px;
 }
 .homepagecoolprojects {
   text-align: center;
+  margin: 2rem 0;
 }
 .homepageProducts {
   display: flex;
-  justify-content: space-evenly;
+  margin: 0 2%;
+  justify-content: space-around;
 }
 .homepageProducts div {
   width: 29%;
@@ -204,11 +221,15 @@ footer .homepageFootericons a {
   margin: 5% 0;
 }
 .homepageProducts div img {
-  width: 48.5vh;
+  width: 46vh;
   height: 35vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .homepageProducts div p {
   margin: 5% 0;
+  text-align: center;
 }
 nav {
   display: flex;
