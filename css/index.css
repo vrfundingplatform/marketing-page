@@ -173,9 +173,21 @@ footer .homepageFootericons a {
   text-decoration: none;
   color: #fff;
 }
+.homepageCta {
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 .homepageCta button {
   background-color: #121012;
   color: #fff;
+}
+.homepageCta div {
+  padding: 7% 5% 7% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  height: 25vh;
 }
 .homepagecoolprojects {
   text-align: center;
