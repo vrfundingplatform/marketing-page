@@ -155,16 +155,16 @@ footer {
   height: 10vh;
   align-items: center;
   justify-content: center;
+  margin-top: 2%;
 }
 footer .homepageFootertext {
   font-size: 1.5rem;
   text-align: center;
   border-top: solid white 2px;
-  padding-top: 1%;
 }
 footer .homepageFootericons {
   display: flex;
-  padding: 1% 0;
+  padding-bottom: 1%;
   text-align: center;
   width: 10%;
   justify-content: space-between;
@@ -339,6 +339,9 @@ nav a {
 .aboutTeamList .teamRow .aboutTeamsMember .memberInfo h4 {
   padding: 3% 0;
 }
+.aboutTeamList .teamRow .aboutTeamsMember .memberInfo p {
+  font-size: 1.3rem;
+}
 .aboutTeamList .teamRow .aboutTeamsMember .memberImgIcons div {
   display: flex;
   justify-content: space-evenly;
@@ -347,4 +350,36 @@ nav a {
 .aboutTeamList .teamRow .aboutTeamsMember .memberImgIcons div a {
   text-decoration: none;
   color: #fff;
+}
+.contactTop {
+  display: flex;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
+}
+.contactTop h1 {
+  color: #121012;
+  margin-left: 70%;
+}
+.contactMid {
+  padding: 5% 20%;
+}
+.contactForm {
+  margin: 0 5%;
+  padding: 5%;
+  background-color: slateblue;
+}
+.contactForm div form {
+  display: flex;
+  flex-direction: column;
+}
+.contactForm div form input[type=submit] {
+  margin-top: 5%;
+}
+.contactForm div form textarea {
+  height: 20vh;
+}
+.contactForm div form * {
+  padding: 1%;
 }
