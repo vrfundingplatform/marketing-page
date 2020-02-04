@@ -158,13 +158,27 @@ footer {
   margin-top: 2%;
 }
 footer .homepageFootertext {
+  margin-top: 5%;
+  margin-bottom: 2%;
   font-size: 1.5rem;
   text-align: center;
   border-top: solid white 2px;
+  width: 90%;
+  padding-top: 2%;
+  line-height: 1.6rem;
+}
+footer .homepageFootertext p {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 500px) {
+  footer .homepageFootertext {
+    margin-top: 10%;
+  }
 }
 footer .homepageFootericons {
   display: flex;
-  padding-bottom: 1%;
+  padding-bottom: 4%;
   text-align: center;
   width: 10%;
   justify-content: space-between;
@@ -172,6 +186,12 @@ footer .homepageFootericons {
 footer .homepageFootericons a {
   text-decoration: none;
   color: #fff;
+}
+@media (max-width: 500px) {
+  footer .homepageFootericons {
+    width: 100%;
+    justify-content: space-evenly;
+  }
 }
 .homepageCta {
   background-attachment: fixed;
@@ -327,7 +347,6 @@ nav a {
   }
   nav .homepageDivlinks a {
     margin: 3%;
-    border-bottom: solid 1px #fff;
     width: 100%;
     margin-bottom: 2%;
   }
@@ -342,18 +361,46 @@ nav a {
   color: black;
 }
 .aboutTop div {
-  padding: 7% 5% 7% 5%;
+  padding: 5% 5% 7% 5%;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 35%;
   height: 25vh;
+  line-height: 2rem;
+  max-width: 100%;
+}
+@media (max-width: 500px) {
+  .aboutTop div {
+    height: 10vh;
+  }
+  .aboutTop div p {
+    display: none;
+  }
+}
+.aboutTopMobile {
+  display: none;
+  text-align: center;
+  margin: 3% 3%;
+  padding-top: 5%;
+}
+@media (max-width: 500px) {
+  .aboutTopMobile {
+    display: block;
+  }
 }
 .aboutTeams {
   text-align: center;
+  line-height: 2rem;
 }
 .aboutTeams div {
   padding: 5% 15%;
+}
+@media (max-width: 500px) {
+  .aboutTeams div {
+    padding: 0;
+    margin: 3% 3%;
+  }
 }
 .aboutTeamList {
   margin: 3%;
@@ -400,6 +447,15 @@ nav a {
   height: 25vh;
   width: 30vh;
   max-width: 100%;
+}
+@media (max-width: 500px) {
+  .aboutTeamList .teamRow {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutTeamList .teamRow .aboutTeamsMember {
+    width: 100%;
+  }
 }
 .projectsPagetopcontent {
   background-size: 100% 68%;
@@ -497,4 +553,9 @@ nav a {
 }
 .contactForm div form * {
   padding: 1%;
+}
+@media (max-width: 500px) {
+  .contactForm {
+    margin-bottom: 10%;
+  }
 }

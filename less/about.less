@@ -2,23 +2,53 @@
     background-repeat: no-repeat;
     background-size: 100%;
     color: black;
+
     div{
-        padding: 7% 5% 7% 5%;
+        padding: 5% 5% 7% 5%;
         .flexRow();
         align-items: center;
         justify-content: center;
         width: 35%;
         height: 25vh;
+        line-height: 2rem;
+        max-width: 100%;
+
+        @media @mobile{
+            height: 10vh;
+
+            p{
+            display: none;
+            }
+
+        }
 
     }
 
 }
 
+.aboutTopMobile{
+    display: none;
+    text-align: center;
+    margin: 3% 3%;
+    padding-top: 5%;
+
+    @media @mobile{
+        display: block;
+    }
+}
+
 .aboutTeams{
     text-align: center;
+    line-height: 2rem;
 
     div{
         padding: 5% 15%;
+
+        @media @mobile{
+            padding: 0;
+            margin: 3% 3%;
+        }
+
     }
 
 }
@@ -78,6 +108,14 @@
 
             }
 
+        }
+
+        @media @mobile{
+            .flexColumn();
+
+            .aboutTeamsMember{
+                width: 100%;
+            }
         }
 
     }

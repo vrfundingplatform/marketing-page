@@ -5,16 +5,31 @@ footer{
     justify-content: center;
     margin-top: 2%;
 
+
     .homepageFootertext{
+        margin-top: 5%;
+        margin-bottom: 2%;
         font-size: 1.5rem;
         text-align: center;
         border-top: solid white 2px;
+        width: 90%;
+        padding-top: 2%;
+        line-height: 1.6rem;
+
+        p{
+            margin: 0;
+            padding: 0;
+        }
+
+        @media @mobile{
+            margin-top: 10%;
+        }
 
     }
 
     .homepageFootericons{
         .flexRow();
-        padding-bottom: 1%;
+        padding-bottom: 4%;
         text-align: center;
         width: 10%;
         justify-content: space-between;
@@ -23,6 +38,13 @@ footer{
             .undecorateLink();
         }
 
+        @media @mobile{
+            width: 100%;
+            justify-content: space-evenly;
+        }
+
     }
+
+
     
 }
