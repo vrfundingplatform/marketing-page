@@ -313,6 +313,14 @@ nav {
   justify-content: space-between;
   margin: 1rem 0;
 }
+nav img {
+  width: 6rem;
+}
+@media (max-width: 500px) {
+  nav img {
+    padding: 2% 0;
+  }
+}
 nav label,
 nav input {
   display: none;
@@ -341,6 +349,7 @@ nav .homepageDivlinks .navBtn {
   nav .homepageDivlinks .navBtn {
     margin-top: 3%;
     width: 30%;
+    height: 5vh;
   }
 }
 nav .homepageDivlinks .navBtn:hover {
