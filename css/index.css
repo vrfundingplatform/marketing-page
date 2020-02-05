@@ -211,14 +211,7 @@ footer .homepageFootericons a {
   justify-content: space-around;
   align-items: flex-start;
 }
-.homepageCta div img {
-  border-top: solid #fff 3.5px;
-  padding-top: 2rem;
-}
-div p {
-  padding: 3rem 0;
-}
-button {
+.homepageCta div button {
   background-color: #121012;
   color: #fff;
   border-color: #fff;
@@ -229,10 +222,17 @@ button {
   text-align: center;
   border-radius: 5px;
 }
-button:hover {
+.homepageCta div button:hover {
   background-color: #fff;
   color: #121012;
   border-color: #121012;
+}
+.homepageCta div img {
+  border-top: solid #fff 3.5px;
+  padding-top: 2rem;
+}
+div p {
+  padding: 3rem 0;
 }
 .homepagecoolprojects {
   text-align: center;
@@ -313,10 +313,19 @@ nav .navSignIn {
 }
 nav .navSignIn button {
   background-color: #121012;
-  border-radius: 2px;
   color: #fff;
-  border: solid 1px #fff;
-  width: 40%;
+  border-color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 0.8rem 0;
+  width: 20rem;
+  text-align: center;
+  border-radius: 5px;
+}
+nav .navSignIn button:hover {
+  background-color: #fff;
+  color: #121012;
+  border-color: #121012;
 }
 @media (max-width: 500px) {
   nav .navSignIn button {
@@ -513,6 +522,23 @@ nav a {
   text-align: center;
   font-size: 2rem;
   height: 50%;
+}
+.projectsMaincontent div p button {
+  background-color: #121012;
+  color: #fff;
+  border-color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 0.8rem 0;
+  width: 20rem;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 3rem;
+}
+.projectsMaincontent div p button:hover {
+  background-color: #fff;
+  color: #121012;
+  border-color: #121012;
 }
 .contactTop {
   display: flex;
