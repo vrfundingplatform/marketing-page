@@ -63,6 +63,10 @@ font-weight: bold;
     .flexRow;
     margin: 0 2%;
     justify-content: space-around;
+    @media @tablet{
+        .flexColumn;
+       align-items: center;
+    }
    @media @mobile {
        .flexColumn;
        align-items: center;
@@ -76,9 +80,13 @@ font-weight: bold;
             text-align: center;
             margin: 5% 0;
        }
+       @media @tablet{
+           width:90%;
+       }
        @media @mobile{
            width:35rem;
            margin:0 5%;
+
        }
 
 
