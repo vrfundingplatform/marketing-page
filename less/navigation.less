@@ -3,38 +3,46 @@ nav{
     justify-content: space-between;
   margin: 1rem 0;
 
-   .homepageDivlinks{
-        .flexRow;
-        width: 80%;
-        justify-content: space-evenly;
-        align-items: center;
+    label, input {
+        display: none;
+        cursor: pointer;
+    }
+
+    label{
+        width: 100%;
+        font-size: 2.3rem;
         text-align: center;
     }
 
-
-    .navSignIn{
-        width:19%;
+   .homepageDivlinks{
+        .flexRow;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
         text-align: center;
-
-        button{
+    
+        .navBtn{
             background-color: @black;
             border-radius: 2px;
             color: @white;
             border: solid 1px @white;
-            width: 40%;
+            width: 5%;
             
                 @media @mobile{
-                    width:80%;
+                    margin-top: 3%;
+                    width:30%;
                 }
         }
 
-        button:hover {
+        .navBtn:hover {
             background-color: @white;
             color: @black;
             border: solid 1px @black;
         }
         
     }
+
+    
     
 
     a{
@@ -51,6 +59,7 @@ nav{
             .flexColumn();
             align-items: center;
             margin: 3% 0;
+            display: none;
 
             a{
                 margin: 3%;
@@ -59,16 +68,30 @@ nav{
 
             }
 
+            
+
         }
 
         .navSignIn{
             width: 100%;
             margin-bottom: 5%;
-
-            button{
-                
-            }
+            display: none;
             
+        }
+
+        #toggle:checked + .homepageDivlinks{
+            .flexColumn();
+
+
+        }
+
+    }
+
+
+    @media @mobile{
+
+        label{
+            display: block;
         }
 
     }
