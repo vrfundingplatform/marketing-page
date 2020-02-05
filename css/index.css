@@ -201,7 +201,8 @@ footer .homepageFootericons a {
 }
 @media (max-width: 500px) {
   .homepageCta {
-    background-size: 100% 47%;
+    background-size: 147% 100%;
+    background-attachment: scroll;
   }
 }
 .homepageCta div {
