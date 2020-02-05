@@ -314,19 +314,10 @@ nav .navSignIn {
 }
 nav .navSignIn button {
   background-color: #121012;
+  border-radius: 2px;
   color: #fff;
-  border-color: #fff;
-  font-size: 1.7rem;
-  font-weight: bold;
-  padding: 0.8rem 0;
-  width: 20rem;
-  text-align: center;
-  border-radius: 5px;
-}
-nav .navSignIn button:hover {
-  background-color: #fff;
-  color: #121012;
-  border-color: #121012;
+  border: solid 1px #fff;
+  width: 40%;
 }
 @media (max-width: 500px) {
   nav .navSignIn button {
