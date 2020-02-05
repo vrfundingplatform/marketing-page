@@ -418,6 +418,11 @@ nav a {
   width: 50%;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .aboutTeamList .teamRow .aboutTeamsMember {
+    padding: 2% 0;
+  }
+}
 .aboutTeamList .teamRow .aboutTeamsMember .memberInfo {
   display: flex;
   flex-direction: column;
@@ -446,6 +451,11 @@ nav a {
   height: 25vh;
   width: 30vh;
   max-width: 100%;
+}
+@media (max-width: 500px) {
+  .aboutTeamList .teamRow .aboutTeamsMember .memberImg img {
+    width: 40vh;
+  }
 }
 @media (max-width: 500px) {
   .aboutTeamList .teamRow {
