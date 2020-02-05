@@ -301,30 +301,37 @@ nav {
   justify-content: space-between;
   margin: 1rem 0;
 }
+nav label,
+nav input {
+  display: none;
+  cursor: pointer;
+}
+nav label {
+  width: 100%;
+  font-size: 2.3rem;
+  text-align: center;
+}
 nav .homepageDivlinks {
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
-nav .navSignIn {
-  width: 19%;
-  text-align: center;
-}
-nav .navSignIn button {
+nav .homepageDivlinks .navBtn {
   background-color: #121012;
   border-radius: 2px;
   color: #fff;
   border: solid 1px #fff;
-  width: 40%;
+  width: 5%;
 }
 @media (max-width: 500px) {
-  nav .navSignIn button {
-    width: 80%;
+  nav .homepageDivlinks .navBtn {
+    margin-top: 3%;
+    width: 30%;
   }
 }
-nav .navSignIn button:hover {
+nav .homepageDivlinks .navBtn:hover {
   background-color: #fff;
   color: #121012;
   border: solid 1px #121012;
@@ -344,6 +351,7 @@ nav a {
     flex-direction: column;
     align-items: center;
     margin: 3% 0;
+    display: none;
   }
   nav .homepageDivlinks a {
     margin: 3%;
@@ -353,6 +361,16 @@ nav a {
   nav .navSignIn {
     width: 100%;
     margin-bottom: 5%;
+    display: none;
+  }
+  nav #toggle:checked + .homepageDivlinks {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  nav label {
+    display: block;
   }
 }
 .aboutTop {
