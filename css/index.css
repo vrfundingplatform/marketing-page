@@ -401,11 +401,11 @@ nav a {
   text-align: center;
   line-height: 2rem;
 }
-.aboutTeams div {
-  padding: 5% 15%;
+.aboutTeams .teamsTop {
+  padding: 2.5% 15% 0 15%;
 }
 @media (max-width: 500px) {
-  .aboutTeams div {
+  .aboutTeams .teamsTop {
     padding: 0;
     margin: 3% 3%;
   }
@@ -572,7 +572,8 @@ nav a {
   }
 }
 .contactForm {
-  margin: 0 5%;
+  margin: 0 10%;
+  margin-bottom: 6%;
   padding: 5%;
   background-color: slateblue;
 }
