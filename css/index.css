@@ -349,10 +349,48 @@ footer .homepageFootericons a {
 .homepageMoreprojects a:visited {
   color: #fff;
 }
+.features {
+  margin-top: 7%;
+}
+.features h2 {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2% ;
+}
 .homepageBottomContent {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  flex-wrap: wrap;
   line-height: 2;
   text-align: center;
-  margin: 5% 0 ;
+  margin: 0 3%;
+}
+.homepageBottomContent div {
+  margin: 3% 0;
+  width: 32%;
+}
+@media (max-width: 800px) {
+  .homepageBottomContent div {
+    align-content: space-between;
+  }
+  .homepageBottomContent div h2 {
+    font-size: 3rem;
+  }
+  .homepageBottomContent div p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .homepageBottomContent div {
+    margin: 3% 6%;
+    width: 38%;
+  }
+  .homepageBottomContent div h2 {
+    line-height: 1;
+    margin-bottom: 9%;
+    font-size: 3.5rem;
+  }
 }
 nav {
   display: flex;
