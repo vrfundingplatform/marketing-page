@@ -232,59 +232,59 @@ footer .homepageFootericons a {
   border-top: solid #fff 3.5px;
   padding-top: 2rem;
 }
-div p {
-  font-size: 2rem;
+.homepageCta div p {
+  font-size: 2.5rem;
   padding: 3rem 0;
 }
 @media (max-width: 800px) {
-  div p {
+  .homepageCta div p {
     font-size: 1.8rem;
   }
 }
 @media (max-width: 500px) {
-  div p {
+  .homepageCta div p {
     font-size: 1.5rem;
   }
 }
-div p .dotOne {
+.homepageCta div p .dotOne {
   color: #fbb733;
   font-size: 3rem;
 }
 @media (max-width: 800px) {
-  div p .dotOne {
+  .homepageCta div p .dotOne {
     font-size: 2.8rem;
   }
 }
 @media (max-width: 500px) {
-  div p .dotOne {
+  .homepageCta div p .dotOne {
     font-size: 2.5rem;
   }
 }
-div p .dotTwo {
+.homepageCta div p .dotTwo {
   color: #3abeee;
   font-size: 3rem;
 }
 @media (max-width: 800px) {
-  div p .dotTwo {
+  .homepageCta div p .dotTwo {
     font-size: 2.8rem;
   }
 }
 @media (max-width: 500px) {
-  div p .dotTwo {
+  .homepageCta div p .dotTwo {
     font-size: 2.5rem;
   }
 }
-div p .dotThree {
+.homepageCta div p .dotThree {
   color: #e61a68;
   font-size: 3rem;
 }
 @media (max-width: 800px) {
-  div p .dotThree {
+  .homepageCta div p .dotThree {
     font-size: 2.8rem;
   }
 }
 @media (max-width: 500px) {
-  div p .dotThree {
+  .homepageCta div p .dotThree {
     font-size: 2.5rem;
   }
 }
@@ -311,10 +311,6 @@ div p .dotThree {
   margin: 0 5rem;
   width: 29%;
 }
-.homepageProducts div h2 {
-  text-align: center;
-  margin: 5% 0;
-}
 @media (max-width: 800px) {
   .homepageProducts div {
     width: 90%;
@@ -325,6 +321,10 @@ div p .dotThree {
     width: 35rem;
     margin: 0 5%;
   }
+}
+.homepageProducts div h2 {
+  text-align: center;
+  margin: 5% 0;
 }
 .homepageProducts div img {
   width: 100%;
@@ -343,9 +343,6 @@ div p .dotThree {
   text-align: center;
   /* visited link */
 }
-.homepageMoreprojects h3 {
-  line-height: 2;
-}
 .homepageMoreprojects a:link {
   color: #fff;
 }
@@ -353,6 +350,7 @@ div p .dotThree {
   color: #fff;
 }
 .homepageBottomContent {
+  line-height: 2;
   text-align: center;
   margin: 5% 0 ;
 }
@@ -576,6 +574,21 @@ nav a {
     width: 100%;
   }
 }
+.projectsPagetopcontent {
+  background-size: 100%;
+  height: 53vh;
+  background-repeat: no-repeat;
+}
+@media (max-width: 800px) {
+  .projectsPagetopcontent {
+    height: 28vh;
+  }
+}
+@media (max-width: 500px) {
+  .projectsPagetopcontent {
+    height: 20vh;
+  }
+}
 .recentprojectsContainer {
   text-align: center;
 }
@@ -592,72 +605,58 @@ nav a {
   line-height: 2;
   font-size: 2rem;
 }
-.projectsPagetopcontent {
-  background-size: 100%;
-  height: 53vh;
-  background-repeat: no-repeat;
-}
-@media (max-width: 800px) {
-  .projectsPagetopcontent {
-    height: 28vh;
-  }
-}
-@media (max-width: 500px) {
-  .projectsPagetopcontent {
-    height: 20vh;
-  }
-}
-.projectsMaincontent {
+.projectsMaincontentTop {
   display: flex;
   margin: 0 2%;
   justify-content: space-around;
 }
 @media (max-width: 800px) {
-  .projectsMaincontent {
+  .projectsMaincontentTop {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
 @media (max-width: 500px) {
-  .projectsMaincontent {
+  .projectsMaincontentTop {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
-.projectsMaincontent div {
+.projectsMaincontentTop div {
   margin: 0 5rem;
   width: 29%;
+  border-bottom: dotted white;
 }
-.projectsMaincontent div h2 {
+.projectsMaincontentTop div h2 {
   text-align: center;
   margin: 5% 0;
 }
 @media (max-width: 800px) {
-  .projectsMaincontent div {
+  .projectsMaincontentTop div {
     width: 90%;
   }
 }
 @media (max-width: 500px) {
-  .projectsMaincontent div {
+  .projectsMaincontentTop div {
     width: 35rem;
     margin: 0 5%;
   }
 }
-.projectsMaincontent div img {
+.projectsMaincontentTop div img {
   width: 100%;
   height: auto;
   border-radius: 6px;
 }
-.projectsMaincontent div p {
+.projectsMaincontentTop div p {
   line-height: 2;
   margin: 5% 0;
   text-align: center;
   font-size: 2rem;
   height: 50%;
 }
-.projectsMaincontent div p button {
+.projectsMaincontentTop div p button {
   background-color: #121012;
   color: #fff;
   border-color: #fff;
@@ -669,7 +668,74 @@ nav a {
   border-radius: 5px;
   margin-top: 3rem;
 }
-.projectsMaincontent div p button:hover {
+.projectsMaincontentTop div p button:hover {
+  background-color: #fff;
+  color: #121012;
+  border-color: #121012;
+}
+.projectsMaincontentBottom {
+  display: flex;
+  margin: 0 2%;
+  justify-content: space-around;
+}
+@media (max-width: 800px) {
+  .projectsMaincontentBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .projectsMaincontentBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.projectsMaincontentBottom div {
+  margin: 0 5rem;
+  width: 29%;
+}
+.projectsMaincontentBottom div h2 {
+  text-align: center;
+  margin: 5% 0;
+}
+@media (max-width: 800px) {
+  .projectsMaincontentBottom div {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .projectsMaincontentBottom div {
+    width: 35rem;
+    margin: 0 5%;
+  }
+}
+.projectsMaincontentBottom div img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.projectsMaincontentBottom div p {
+  line-height: 2;
+  margin: 5% 0;
+  text-align: center;
+  font-size: 2rem;
+  height: 50%;
+}
+.projectsMaincontentBottom div p button {
+  background-color: #121012;
+  color: #fff;
+  border-color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 0.8rem 0;
+  width: 20rem;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 3rem;
+}
+.projectsMaincontentBottom div p button:hover {
   background-color: #fff;
   color: #121012;
   border-color: #121012;
