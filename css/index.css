@@ -448,11 +448,11 @@ nav a {
   color: black;
 }
 .aboutTop div {
-  padding: 5% 5% 7% 5%;
+  padding: 5% 5% 5% 5%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35%;
+  width: 25%;
   height: 25vh;
   line-height: 2rem;
   max-width: 100%;
@@ -461,6 +461,11 @@ nav a {
   .aboutTop div {
     height: 10vh;
   }
+  .aboutTop div p {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
   .aboutTop div p {
     display: none;
   }
@@ -481,7 +486,7 @@ nav a {
   line-height: 2rem;
 }
 .aboutTeams .teamsTop {
-  padding: 2.5% 15% 0 15%;
+  padding: 4% 15% 0 15%;
 }
 @media (max-width: 500px) {
   .aboutTeams .teamsTop {
@@ -508,7 +513,7 @@ nav a {
 }
 @media (max-width: 500px) {
   .aboutTeamList .teamRow .aboutTeamsMember {
-    padding: 2% 0;
+    padding: 5% 0;
   }
 }
 .aboutTeamList .teamRow .aboutTeamsMember .memberInfo {
@@ -537,7 +542,7 @@ nav a {
 }
 .aboutTeamList .teamRow .aboutTeamsMember .memberImg img {
   height: 25vh;
-  width: 30vh;
+  min-width: 25vh;
   max-width: 100%;
 }
 @media (max-width: 500px) {
@@ -549,6 +554,23 @@ nav a {
   .aboutTeamList .teamRow {
     display: flex;
     flex-direction: column;
+  }
+  .aboutTeamList .teamRow .aboutTeamsMember {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .aboutTop div {
+    height: 10vh;
+    width: 50%;
+  }
+  .aboutTopMobile {
+    display: block;
+  }
+  .aboutTeamList .teamRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .aboutTeamList .teamRow .aboutTeamsMember {
     width: 100%;
@@ -672,6 +694,11 @@ nav a {
   .contactTop h1 {
     margin-left: 60%;
     font-size: 2.3rem;
+  }
+}
+@media (max-width: 800px) {
+  .contactTop {
+    height: 15vh;
   }
 }
 .contactMid {
