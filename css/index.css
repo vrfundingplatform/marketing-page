@@ -473,6 +473,10 @@ nav a {
   text-align: center;
   margin: 3% 3%;
   padding-top: 5%;
+  padding-bottom: 5%;
+}
+.aboutTopMobile h2 {
+  padding-bottom: 3%;
 }
 @media (max-width: 500px) {
   .aboutTopMobile {
@@ -486,10 +490,15 @@ nav a {
 .aboutTeams .teamsTop {
   padding: 4% 15% 0 15%;
 }
+.aboutTeams .teamsTop h2 {
+  padding: 0% 3%;
+  padding-bottom: 3%;
+}
 @media (max-width: 500px) {
   .aboutTeams .teamsTop {
     padding: 0;
-    margin: 3% 3%;
+    margin: 0 3%;
+    margin-bottom: 10%;
   }
 }
 .aboutTeamList {
