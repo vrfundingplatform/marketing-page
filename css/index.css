@@ -519,17 +519,17 @@ nav a {
 }
 .projectsPagetopcontent {
   background-size: 100%;
-  height: 80rem;
+  height: 53vh;
   background-repeat: no-repeat;
 }
 @media (max-width: 800px) {
   .projectsPagetopcontent {
-    height: 35rem;
+    height: 28vh;
   }
 }
 @media (max-width: 500px) {
   .projectsPagetopcontent {
-    height: 26rem;
+    height: 20vh;
   }
 }
 .projectsMaincontent {
