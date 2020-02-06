@@ -1,23 +1,8 @@
-.recentprojectsContainer{
-    text-align: center;
-.recentprojects{
-   margin: 4% 4%;
-   width:75%;
-   display: inline-block;
-   @media @tablet{
-       
-   }
-    h2{
-        text-align: center;
-       
-        font-weight: bold;
-    }
-    p{
-        line-height: 2;
-        font-size: 2rem;
-    }
-}
-}
+
+//Hero image Styling starts here
+
+
+
 .projectsPagetopcontent{
     
     background-size: 100%;
@@ -33,10 +18,104 @@
     
 }
 
+//Hero image Styling ends here
+
+
+//Projects page top text styling starts here
+.recentprojectsContainer{
+    text-align: center;
+        .recentprojects{
+             margin: 4% 4%;
+            width:75%;
+            display: inline-block;
+                        
+                 h2{
+                     text-align: center;
+                        font-weight: bold;
+                     }
+
+                     p{
+                         line-height: 2;
+                        font-size: 2rem;
+                     }
+        }
+}
+//Projects page top text styling ends here
 
 
 
-.projectsMaincontent{
+
+
+//Projects first row styling starts here
+.projectsMaincontentTop{
+    
+            .flexRow;
+            margin: 0 2%;
+         justify-content: space-around;
+
+             @media @tablet{
+                    .flexColumn;
+                    align-items: center;
+                }
+                 @media @mobile {
+                .flexColumn;
+                align-items: center;
+       
+                    }
+   
+        div{
+             margin: 0 5rem;
+            width: 29%;
+            border-bottom: dotted white;
+                  h2{
+                         text-align: center;
+                          margin: 5% 0;
+                     }
+            @media @tablet{
+                 width:90%;
+             }
+
+
+              @media @mobile{
+             width:35rem;
+            margin:0 5%;
+             }
+
+
+
+             img{
+        
+                width:100%;
+             height:auto;
+                border-radius: 6px;
+       
+             }
+
+
+              p{
+           line-height: 2;
+           margin: 5% 0;
+           text-align: center;
+          font-size: 2rem;
+        height:50%;
+
+                button{
+                     .buttonstyle;
+                    margin-top: 3rem;
+                 }
+         
+       }
+
+   }
+    
+}
+
+//Projects first row styling ends here
+
+
+
+//Projects second row styling starts here
+.projectsMaincontentBottom{
     
     .flexRow;
     margin: 0 2%;
@@ -52,44 +131,48 @@
        
    }
    
-    div{
-        margin: 0 5rem;
-    width: 29%;
-         h2{
-            text-align: center;
-            margin: 5% 0;
-       }
-       @media @tablet{
-       width:90%;
-    }
-       @media @mobile{
-           width:35rem;
-           margin:0 5%;
-       }
+            div{
+              margin: 0 5rem;
+                 width: 29%;
+    
+                     h2{
+                     text-align: center;
+                         margin: 5% 0;
+                        }
+                        @media @tablet{
+                        width:90%;
+                        }
+                        @media @mobile{
+                            width:35rem;
+                            margin:0 5%;
+                        }
 
 
 
-       img{
-        
-        width:100%;
-        height:auto;
-        border-radius: 6px;
-       
-       }
-       p{
-           line-height: 2;
-           margin: 5% 0;
-           text-align: center;
-          font-size: 2rem;
-        height:50%;
+                    img{
+                        
+                        width:100%;
+                        height:auto;
+                        border-radius: 6px;
+                    
+                    }
 
-        button{
-            .buttonstyle;
-            margin-top: 3rem;
-        }
-         
-       }
+
+                     p{
+                     line-height: 2;
+                     margin: 5% 0;
+                      text-align: center;
+                       font-size: 2rem;
+                         height:50%;
+
+                     button{
+                         .buttonstyle;
+                         margin-top: 3rem;
+                            }
+                            
+                        }
 
    }
     
 }
+//Projects second row styling ends here
