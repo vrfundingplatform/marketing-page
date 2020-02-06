@@ -165,7 +165,7 @@ footer .homepageFootertext {
   border-top: solid white 2px;
   width: 90%;
   padding-top: 2%;
-  line-height: 1.6rem;
+  line-height: 2rem;
 }
 footer .homepageFootertext p {
   margin: 0;
@@ -343,11 +343,11 @@ nav .homepageDivlinks .navBtn {
   border-radius: 2px;
   color: #fff;
   border: solid 1px #fff;
-  width: 5%;
+  width: 100%;
 }
 @media (max-width: 500px) {
   nav .homepageDivlinks .navBtn {
-    margin-top: 3%;
+    margin-top: 5%;
     width: 30%;
     height: 5vh;
   }
