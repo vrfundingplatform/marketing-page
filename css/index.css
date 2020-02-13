@@ -693,8 +693,9 @@ nav a {
 }
 .projectsMaincontentTop div img {
   width: 100%;
-  height: auto;
+  height: 444px;
   border-radius: 6px;
+  object-fit: scale;
 }
 .projectsMaincontentTop div p {
   line-height: 2;
@@ -760,8 +761,9 @@ nav a {
 }
 .projectsMaincontentBottom div img {
   width: 100%;
-  height: auto;
+  height: 444px;
   border-radius: 6px;
+  object-fit: scale;
 }
 .projectsMaincontentBottom div p {
   line-height: 2;
